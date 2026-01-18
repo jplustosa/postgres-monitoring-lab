@@ -105,3 +105,12 @@ Crie seu próprio `env.sh` ou `.env` a partir dele, sem versionar credenciais se
 ## 📌 Observação
 
 Este projeto é educacional e faz parte da construção de portfólio técnico voltado para Banco de Dados, DataOps e Arquitetura de Dados.
+
+---
+
+## Projeto 2 — Monitoramento de performance
+
+Evolução direta do Projeto 1, com foco em diagnóstico de lentidão,
+análise de queries, coleta histórica de métricas e tuning básico
+em PostgreSQL.
+
