@@ -1,0 +1,3 @@
+monitoring/output/*.csv
+monitoring/scripts/env.sh
+postgres-data/

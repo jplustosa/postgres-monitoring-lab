@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres_monitoring_lab
+    environment:
+      POSTGRES_DB: labdb
+      POSTGRES_USER: dba_admin
+      POSTGRES_PASSWORD: dba_admin_pwd
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
