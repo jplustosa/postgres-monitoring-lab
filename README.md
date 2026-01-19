@@ -5,3 +5,5 @@ Este projeto é um laboratório prático para simular um ambiente real de Postgr
 O objetivo não é apenas “subir um banco”, mas estruturar um projeto reproduzível, versionado e próximo de cenários de produção.
 
 ---
+
+Autor: João Pedro de Souza Lustosa
