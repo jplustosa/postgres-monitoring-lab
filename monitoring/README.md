@@ -114,3 +114,35 @@ Evolução direta do Projeto 1, com foco em diagnóstico de lentidão,
 análise de queries, coleta histórica de métricas e tuning básico
 em PostgreSQL.
 
+postgres-monitoring-lab/
+├── docker-compose.yml
+├── sql/
+├── scripts/
+├── monitoring/
+│   ├── health/
+│   ├── performance/
+│   └── history/
+├── load_tests/
+├── reports/
+├── docs/
+└── README.md
+
+
+Contexto
+Laboratório DataOps/DBA simulando ambiente de produção PostgreSQL em Docker, com foco em observabilidade, diagnóstico e tuning de performance.
+
+Problema simulado
+Consultas lentas em tabela com carga massiva de dados, ausência de índices adequados e impacto direto em tempo de resposta.
+
+Abordagem
+• Carga de dados em larga escala
+• Coleta de métricas com pg_stat_statements
+• Identificação de queries críticas
+• Aplicação de índices corretivos
+• Comparação objetiva antes vs depois
+
+Resultado
+Redução significativa do tempo médio e total de execução das queries, comprovada por métricas.
+
+Conclusão
+Projeto demonstra domínio prático de diagnóstico, tomada de decisão técnica e validação baseada em dados, alinhado à rotina real de um DBA/DataOps.
