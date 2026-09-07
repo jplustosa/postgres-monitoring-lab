@@ -1,3 +1,6 @@
 monitoring/output/*.csv
 monitoring/scripts/env.sh
 postgres-data/
+.env
+.env.*
+!.env.example
